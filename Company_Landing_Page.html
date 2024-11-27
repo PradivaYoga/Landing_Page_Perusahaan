@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Tekno</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed top-0 w-full z-50">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <a href="#" class="text-2xl font-bold text-pink-500">Creative Tekno</a>
+            <div class="hidden md:flex gap-6">
+                <a href="#about" class="hover:text-pink-500">Tentang Kami</a>
+                <a href="#services" class="hover:text-pink-500">Layanan</a>
+                <a href="#testimonials" class="hover:text-pink-500">Testimoni</a>
+                <a href="#contact" class="hover:text-pink-500">Hubungi Kami</a>
+            </div>
+            <button id="scrollTopBtn" class="hidden fixed bottom-8 right-8 bg-pink-500 p-3 text-white rounded-full shadow-md">↑</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-pink-100 py-20 mt-16 text-center">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl font-bold text-gray-700">Selamat Datang di Creative Tekno</h1>
+            <p class="mt-4 text-gray-600">Mitra Teknologi untuk Masa Depan Anda</p>
+            <button class="mt-6 px-6 py-3 bg-pink-500 text-white rounded-full hover:bg-pink-600">Pelajari Lebih Lanjut</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-700 text-center">Tentang Kami</h2>
+            <p class="mt-4 text-gray-600 text-center">
+                Creative Tekno adalah perusahaan berbasis teknologi yang menyediakan solusi digital 
+                untuk membantu bisnis berkembang di era modern. Kami berdiri di Bali sejak 2019, dengan visi menjadi 
+                perusahaan yang berinovasi di bidang teknologi digital.
+            </p>
+            <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-gray-100 rounded-lg text-center">
+                    <h3 class="text-xl font-bold text-gray-700">Visi</h3>
+                    <p class="mt-4 text-gray-600">Mewujudkan dunia di mana teknologi mempermudah kehidupan semua orang.</p>
+                </div>
+                <div class="p-6 bg-gray-100 rounded-lg text-center">
+                    <h3 class="text-xl font-bold text-gray-700">Misi</h3>
+                    <p class="mt-4 text-gray-600">Memberikan solusi digital yang inovatif, terjangkau, dan terpercaya untuk semua klien kami.</p>
+                </div>
+                <div class="p-6 bg-gray-100 rounded-lg text-center">
+                    <h3 class="text-xl font-bold text-gray-700">Nilai</h3>
+                    <p class="mt-4 text-gray-600">Integritas, inovasi, kolaborasi, dan komitmen terhadap kepuasan pelanggan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-700 text-center">Layanan Kami</h2>
+            <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-white shadow-md rounded-lg text-center">
+                    <img src="https://via.placeholder.com/100" alt="Service 1" class="mx-auto">
+                    <h3 class="mt-6 text-xl font-bold text-gray-700">Pengembangan Aplikasi</h3>
+                    <p class="mt-4 text-gray-600">Kami mengembangkan aplikasi mobile dan web yang sesuai dengan kebutuhan bisnis Anda.</p>
+                </div>
+                <div class="p-6 bg-white shadow-md rounded-lg text-center">
+                    <img src="https://via.placeholder.com/100" alt="Service 2" class="mx-auto">
+                    <h3 class="mt-6 text-xl font-bold text-gray-700">Konsultasi Teknologi</h3>
+                    <p class="mt-4 text-gray-600">Tim kami membantu Anda merancang strategi teknologi untuk keberhasilan bisnis Anda.</p>
+                </div>
+                <div class="p-6 bg-white shadow-md rounded-lg text-center">
+                    <img src="https://via.placeholder.com/100" alt="Service 3" class="mx-auto">
+                    <h3 class="mt-6 text-xl font-bold text-gray-700">Manajemen Data</h3>
+                    <p class="mt-4 text-gray-600">Kami menyediakan solusi manajemen data yang aman dan efisien untuk bisnis Anda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-gray-700">Apa Kata Klien Kami</h2>
+            <div class="mt-10 flex gap-8 overflow-x-scroll">
+                <div class="p-6 bg-gray-100 rounded-lg">
+                    <p class="text-gray-600">"Creative Tekno team's has been a great help in managing our business efficiency."</p>
+                    <h4 class="mt-4 font-bold text-gray-700">- Timothy Stevenson, CEO Hardcore Tech</h4>
+                </div>
+                <div class="p-6 bg-gray-100 rounded-lg">
+                    <p class="text-gray-600">"Aplikasi yang mereka kembangkan sangat luar biasa! Tepat waktu dan sesuai harapan."</p>
+                    <h4 class="mt-4 font-bold text-gray-700">- Putra Wirya, CEO Alam App</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-700 text-center">Hubungi Kami</h2>
+            <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <form class="p-6 bg-white shadow-md rounded-lg">
+                    <input type="text" placeholder="Nama Anda" class="w-full p-4 mb-4 border rounded">
+                    <input type="email" placeholder="Email Anda" class="w-full p-4 mb-4 border rounded">
+                    <textarea placeholder="Pesan Anda" class="w-full p-4 mb-4 border rounded"></textarea>
+                    <button class="w-full bg-pink-500 text-white py-3 rounded hover:bg-pink-600">Kirim</button>
+                </form>
+                <div class="text-gray-600">
+                    <p><strong>Alamat:</strong> Jalan Rahajeng Wengi No. 17, Bali</p>
+                    <p><strong>Email:</strong> info@creativetekno.com</p>
+                    <p><strong>Telepon:</strong> +62 812 3489 7642</p>
+                    <iframe src="https://maps.google.com/maps?q=-6.200000,106.816666&z=15&output=embed" class="w-full h-64 mt-4"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Creative Tekno. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Script -->
+    <script>
+        const scrollTopBtn = document.getElementById('scrollTopBtn');
+        window.onscroll = () => {
+            if (window.scrollY > 300) {
+                scrollTopBtn.style.display = 'block';
+            } else {
+                scrollTopBtn.style.display = 'none';
+            }
+        };
+        scrollTopBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+    </script>
+
+</body>
+</html>
